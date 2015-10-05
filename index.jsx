@@ -1,5 +1,6 @@
+/** @jsx React.DOM */
 React.render(
-        <h1>Hello, world!</h1>,
+        React.DOM.h1(null,'Hello, world... my world..MUHAHAHAHHAHAHHAHAHHAH!'),
         document.getElementById('content')
 );
 
