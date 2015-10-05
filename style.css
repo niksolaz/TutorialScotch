@@ -3,6 +3,10 @@ body {
 	padding: 40px;
 }
 
+#content{
+	background: silver;
+}
+
 .counter {
 	width :300px;
 	margin: auto;
