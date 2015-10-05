@@ -1,6 +1,15 @@
 /** @jsx React.DOM */
+
+var MyComponent = React.createClass({
+  render: function(){
+    return (
+      <h1>Hello , Psicolabili</h1>
+    );
+  }
+});
+
 React.render(
-        React.DOM.h1(null,'Hello, world... my world..MUHAHAHAHHAHAHHAHAHHAH!'),
+        <MyComponent />,
         document.getElementById('content')
 );
 
